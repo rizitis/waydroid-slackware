@@ -65,3 +65,15 @@ extract files...and place "gbinder.cpython-311-x86_64-linux-gnu.so" and "gbinder
  and:
 import gbinder
 
+TIP: 
+If you affected by:
+ "ContainerManager: dbus.exceptions.DBusException: org.freedesktop.DBus.Error.NoReply: Message recipient disconnected from message bus without replying"
+ 
+ Try:
+# pkill -HUP dbus-daemon
+
+and command again...
+============
+
+good luck, you gonna need it! :D
+
