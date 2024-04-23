@@ -20,7 +20,7 @@ I use slpkg for that.
 (this command will build and install python3-gbinder deps too)
 ============
 
-Then run waydroid.Slackbuild to build and install package.
+Then run ./waydroid.Slackbuild to build and install package.
 ============
 
 After installation finish run
@@ -58,11 +58,10 @@ Tip: if python3-gbinder fail to build and you are in slackware-current
 Download the python3.11 version from here https://repo.waydro.id/dists/mantic/python3-gbinder_1.1.2_amd64.deb
 extract files...and place "gbinder.cpython-311-x86_64-linux-gnu.so" and "gbinder_python-1.1.2.egg-info/"           
  to user ~/.local/lib/python3.11/site-packages/ 
+and to /usr/lib/python3.11/site-packages/
  
  Then command:
- python3.11
- 
- and:
+ python3.11 
 import gbinder
 
 TIP: 
