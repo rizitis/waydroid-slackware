@@ -74,5 +74,13 @@ If you affected by:
 and command again...
 ============
 
+TIP:
+If you get error `Failed to get service waydroidplatform, trying again...`
+
+Try:
+`waydroid upgrade -o`
+
+============
+
 good luck, you gonna need it! :D
 
